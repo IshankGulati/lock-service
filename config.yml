@@ -1,0 +1,13 @@
+logging:
+  level: INFO
+  loggers:
+    io.dropwizard.archetypes: DEBUG
+
+server:
+  rootPath: /api/*
+
+database:
+  driverClass: com.mysql.jdbc.Driver
+  user: ishank
+  password: root
+  url: jdbc:mysql://localhost/LockDb
